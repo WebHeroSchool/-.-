@@ -1,7 +1,5 @@
-p {
-color:red;
+p {color:red;
 }
 
-.title {
-font-family:Roboto;
+.title {font-family:Roboto;
 }
