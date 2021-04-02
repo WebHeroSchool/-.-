@@ -45,7 +45,7 @@
     text-decoration:none;
     transition:opacity .5s;
   }
-  .menu__item_active, .menu__item::after {
+  .menu__item, .menu__item_active, ::after {
     position: absolute;
     display: block;
     content: '';
