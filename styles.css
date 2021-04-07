@@ -9,7 +9,7 @@
     position: relative;
     padding: 40px 0;
     padding-left: 44px;
-    font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
+    font: bold 24px/31px 'PT serif', arial, helvetica, sans-serif;
 }
   .logo__circle {
     position: absolute;
@@ -45,7 +45,7 @@
     text-decoration:none;
     transition:opacity .5s;
   }
-  .menu__item, .menu__item_active, ::after {
+  .menu__item_active,.menu__item ::after {
     position: absolute;
     display: block;
     content: '';
