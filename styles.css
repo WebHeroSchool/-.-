@@ -66,3 +66,15 @@
     opacity: 1;
     width: 100%;
   }
+  .main-content {
+    padding-top: 100px;
+    width: 37%;
+  }
+  .main-content__title {
+    margin: 0 0 40px 0;
+    font: bold 50px/65px 'PT serif', arial, helvetica, sans-serif;
+  }
+  .main-content__discription {
+    margin-bottom: 0 0 41px 0;
+    font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  }
