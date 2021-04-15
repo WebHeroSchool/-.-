@@ -68,7 +68,7 @@
     width: 100%;
   }
   .main {
-    padding-right: 0 63% 100% 0;
+    padding: 0 63% 100% 0;
     background: top right no-repeat url(img/mainImg.svg);
   }
   .main__title {
@@ -76,12 +76,12 @@
     font: bold 50px/65px 'PT serif', arial, helvetica, sans-serif;
   }
   .main__subtitle {
-    margin-bottom: 0 0 41px 0;
+    margin: 0 0 41px 0;
     font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   }
   .main__button {
     font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
-  main__title-text_highlight {
+  .main__title-text_highlight {
     background: #ECF3FF;
   }
