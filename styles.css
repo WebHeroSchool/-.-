@@ -79,6 +79,12 @@
     margin: 0 0 41px 0;
     font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   }
+  .main__title:hover {
+    opacity: .5;
+  }
+  .main__title-text_highlight {
+    background: #ECF3FF;
+  }
   .main__button {
     display: inlain-inline-block;
     font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
@@ -88,10 +94,3 @@
     text-decoration: none;
     border-radius: 40px;
     transition: opacity .5s;
-  }
-  .main__title:hover {
-    opacity: .5;
-  }
-  .main__title-text_highlight {
-    background: #ECF3FF;
-  }
