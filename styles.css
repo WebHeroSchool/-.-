@@ -7,9 +7,9 @@
 }
   .logo {
     position: relative;
-    padding: 40px 0;
-    padding-left: 44px;
-    font: bold 24px/31px 'PT serif', arial, helvetica, sans-serif;
+    padding: 40.6px 0;
+    padding-left: 44.4px;
+    font: bold 25.5px/31.2px 'PT serif', arial, helvetica, sans-serif;
 }
   .logo__circle {
     position: absolute;
@@ -32,16 +32,17 @@
   .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 199.9px;
 }
   .menu {
     display: flex;
     align-items: center;
+    padding-top: 24px;
 }
   .menu__item {
     position: relative;
-    margin-right: 26px;
-    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    margin-right: 23.5px;
+    font: 500 19px/22px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration:none;
     transition:opacity .5s;
@@ -74,15 +75,15 @@
     opacity: 0;
   }
   .main {
-    padding: 0 63% 100px 0;
+    padding: 0 64% 129px 0;
     background: top right no-repeat url(img/mainImg.svg);
   }
   .main__title {
-    margin: 0 0 40px 0;
-    font: bold 66px/87px 'PT serif', arial, helvetica, sans-serif;
+    margin: 0 0 41px 0;
+    font: bold 68px/88px 'PT serif', arial, helvetica, sans-serif;
   }
   .main__subtitle {
-    margin: 0 0 41px 0;
+    margin: 0 0 42px 0;
     font: 22px/26px 'Roboto', arial, helvetica, sans-serif;
   }
   .main__button:hover {
@@ -93,10 +94,10 @@
   }
   .main__button {
     display: inlain-inline-block;
-    font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 20px/28px 'Roboto', arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
-    padding: 10px 18px;
+    padding: 12.5px 20px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
@@ -131,9 +132,8 @@
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
   .hamburger-menu {
-  display: block;
+    display: block;
 }
-
 .menu__btn {
   display: flex;
   align-items: center;
@@ -192,18 +192,15 @@
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
-
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
   background-color: #0056EC;
 }
-
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
-
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   right: 0;
@@ -215,57 +212,67 @@
     margin-left: 16%;
   margin-right: 15.5%;
 }
-
-.header {
-  margin-bottom: 83px;
-}
-
+  .header {
+    margin-bottom: 83px;
+  }
 .logo {
   padding: 39px 0;
   padding-left: 44px;
+  font: bold 24px/31px 'PT serif', arial, helvetica, sans-serif;
 }
-
 .menu__item {
-  margin-right: 27.5px;
-  font: bold 14px/16px Roboto, arial, helvetica, sans-serif;
-  padding-top: 14px;
+  margin-right: 27px;
+  font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  color: #000;
+  margin-top: 14px;
 }
-
+.menu__item::after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
 .menu__item:last-child {
-  margin-right: 4px;
+  margin-right: 0;
 }
-
-.menu__item:first-child {
-  margin-right: 25px;
+.menu__item:hover {
+  opacity: 0.5;
 }
-
+.menu__item:hover:after, .menu__item_active::after {
+  opacity: 1;
+  width: 100%;
+}
 .main {
-  padding: 20px 56% 80px 0;
-  background: top right no-repeat url(img/mainimgmiddle1.svg);
-  background-size: 55%;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainImg.svg);
 }
-
 .main__title {
-  font: 500 50px/65px pt_serifbold, arial, helvetica, sans-serif;
-  padding-top: 0;
-  padding-left: 0;
-  margin-right: 20px;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
+  font: bold 66px/87px 'PT serif', arial, helvetica, sans-serif;
 }
-
 .main__subtitle {
-  padding-right: 13%;
-  font: 500 18px/21px roboto, arial, helvetica, sans-serif;
-  word-spacing: 1px;
+  margin: 0 0 41px 0;
+  font: 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
-
+.main__button:hover {
+  opacity: .5;
+}
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
 .main__button {
-  padding: 15px 23px 0 13px;
-  width: 173px;
-  height: 30px;
-  font: 15px/14px roboto, arial, helvetica, sans-serif;
-  word-spacing: 1px;
+  display: inlain-inline-block;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
 }
-}
-
 }
