@@ -78,6 +78,9 @@
     padding: 0 64% 129px 0;
     background: top right no-repeat url(img/mainImg.svg);
   }
+  element.style {
+    letter-spacing: -1px;
+  }
   .main__title {
     margin: 0 0 41px 0;
     font: bold 68px/88px 'PT serif', arial, helvetica, sans-serif;
