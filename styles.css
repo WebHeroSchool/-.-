@@ -104,10 +104,6 @@ body {
   margin-right: 0;
 }
 
-.menu__item:hover {
-  opacity: 0.5;
-}
-
 .menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
