@@ -77,7 +77,8 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover:after, .menu__item_active::after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -107,7 +108,7 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover:after, .menu__item_active::after {
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -194,11 +195,11 @@ body {
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
   }
 
   .hamburger-menu {
@@ -317,7 +318,7 @@ body {
     height: 3px;
     background: #0056EC;
     opacity: 0;
-    transition: opacity .5s, width .5s;
+    transition: opacity 0.5s, width 0.5s;
   }
 
   .menu__item:last-child {
@@ -328,7 +329,7 @@ body {
     opacity: 0.5;
   }
 
-  .menu__item:hover:after, .menu__item_active::after {
+  .menu__item:hover::after, .menu__item_active::after {
     opacity: 1;
     width: 100%;
   }
@@ -529,7 +530,7 @@ body {
     opacity: 0.5;
   }
 
-  .menu__item:hover:after, .menu__item_active::after {
+  .menu__item:hover::after, .menu__item_active::after {
     opacity: 1;
     width: 100%;
   }
