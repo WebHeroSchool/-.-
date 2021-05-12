@@ -44,7 +44,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: -12px;
+  margin-right: 11px;
   padding-top: 28px;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 61px 1px;
+  margin: 0 0 46px 1px;
   font: 22px/22px "Roboto", arial, helvetica, sans-serif;
   width: 86%;
 }
@@ -125,6 +125,7 @@ body {
 }
 
 .main__title-text_highlight {
+  margin: 9px;
   background: #ecf3ff;
 }
 
@@ -380,7 +381,6 @@ body {
     z-index: 1;
   }
 
-  .menu__btn > span,
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
