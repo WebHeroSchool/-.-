@@ -179,7 +179,6 @@ body {
   }
 
   .menu__btn > span,
-  .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
     display: block;
@@ -329,7 +328,6 @@ body {
   .main__button:hover {
     opacity: 0.5;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -529,7 +527,7 @@ body {
     border-radius: 4px;
     transition: opacity 0.5s;
   }
-  
+
   .main__button:hover {
     opacity: 0.5;
   }
