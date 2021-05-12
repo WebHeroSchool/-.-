@@ -11,7 +11,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 25px/31px "PT serif", arial, helvetica, sans-serif;
+  font: bold 25px/31px "PT serifbold", arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -51,7 +51,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 22px;
-  font: 500 19px/22px "Roboto", arial, helvetica, sans-serif;
+  font: 500 19px/22px "Robotomedium", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -99,18 +99,18 @@ body {
 .main__title {
   margin: 1px 0 38px 1px;
   margin-right: 0;
-  font: bold 68px/89px "PT serif", arial, helvetica, sans-serif;
+  font: bold 68px/89px "PT serifbold", arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
   margin: 0 0 46px 1px;
-  font: 22px/22px "Roboto", arial, helvetica, sans-serif;
+  font: 22px/22px "Robotoregular", arial, helvetica, sans-serif;
   width: 86%;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px "Roboto", arial, helvetica, sans-serif;
+  font: 18px/21px "Robotomedium", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   padding: 17px 36px 20px 23px;
@@ -151,16 +151,16 @@ body {
 
   .main__title {
     margin-bottom: 44px;
-    font: bold 30px/39px "PT serif", arial, helvetica, sans-serif;
+    font: bold 30px/39px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
+    font: 500 16px/19px "Robotoregular", arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font: 500 14px/16px "Robotomedium", arial, helvetica, sans-serif;
   }
 
   .hamburger-menu {
@@ -261,12 +261,12 @@ body {
   .logo {
     padding: 39px 0;
     padding-left: 44px;
-    font: bold 24px/31px "PT serif", arial, helvetica, sans-serif;
+    font: bold 24px/31px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .menu__item {
     margin-right: 27px;
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font: 500 14px/16px "Robotomedium", arial, helvetica, sans-serif;
     color: #000;
     margin-top: 14px;
   }
@@ -304,12 +304,12 @@ body {
 
   .main__title {
     margin: 0 0 40px 0;
-    font: bold 66px/87px "PT serif", arial, helvetica, sans-serif;
+    font: bold 66px/87px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin: 0 0 41px 0;
-    font: 22px/26px "Roboto", arial, helvetica, sans-serif;
+    font: 22px/26px "Robotoregular", arial, helvetica, sans-serif;
   }
 
   .main__title-text_highlight {
@@ -317,7 +317,7 @@ body {
   }
 
   .main__button {
-    font: 18px/21px "Roboto", arial, helvetica, sans-serif;
+    font: 18px/21px "Robotomedium", arial, helvetica, sans-serif;
     color: #fff;
     background: #0056ec;
     padding: 10px 18px;
@@ -353,16 +353,16 @@ body {
 
   .main__title {
     margin-bottom: 44px;
-    font: bold 30px/39px "PT serif", arial, helvetica, sans-serif;
+    font: bold 30px/39px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
+    font: 500 16px/19px "Robotoregular", arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font: 500 14px/16px "Robotomedium", arial, helvetica, sans-serif;
   }
 
   .hamburger-menu {
@@ -463,12 +463,12 @@ body {
   .logo {
     padding: 39px 0;
     padding-left: 44px;
-    font: bold 24px/31px "PT serif", arial, helvetica, sans-serif;
+    font: bold 24px/31px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .menu__item {
     margin-right: 27px;
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font: 500 14px/16px "Robotomedium", arial, helvetica, sans-serif;
     color: #000;
     margin-top: 14px;
   }
@@ -506,12 +506,12 @@ body {
 
   .main__title {
     margin: 0 0 40px 0;
-    font: bold 66px/87px "PT serif", arial, helvetica, sans-serif;
+    font: bold 66px/87px "PT serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin: 0 0 41px 0;
-    font: 22px/26px "Roboto", arial, helvetica, sans-serif;
+    font: 22px/26px "Robotoregular", arial, helvetica, sans-serif;
   }
 
   .main__title-text_highlight {
@@ -519,7 +519,7 @@ body {
   }
 
   .main__button {
-    font: 18px/21px "Roboto", arial, helvetica, sans-serif;
+    font: 18px/21px "Robotomedium", arial, helvetica, sans-serif;
     color: #fff;
     background: #0056ec;
     padding: 10px 18px;
