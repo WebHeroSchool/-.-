@@ -44,13 +44,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 24px;
   padding-top: 28px;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 22px;
+  margin-right: 28px;
   font: 500 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -70,7 +69,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 5px;
 }
 
 .menu__item:hover {
@@ -112,7 +111,7 @@ body {
   font: 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
-  padding: 17px 36px 20px 23px;
+  padding: 13px 36px 20px 23px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
