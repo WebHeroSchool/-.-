@@ -101,7 +101,7 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 46px 1px;
+  margin: 0 0 60px 1px;
   font: 22px/26px "robotoregular", arial, helvetica, sans-serif;
   width: 86%;
 }
@@ -110,7 +110,7 @@ body {
   font: 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
-  padding: 13px 36px 20px 23px;
+  padding: 17px 35px 19px 23px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
@@ -383,7 +383,7 @@ body {
   }
 
   .header {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
 
   .logo {
