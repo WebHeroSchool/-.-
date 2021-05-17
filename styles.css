@@ -383,7 +383,7 @@ body {
   }
 
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
 
   .logo {
@@ -408,16 +408,20 @@ body {
     left: 7px;
     top: 55%;
   }
+  .menu__btn {
+  top: 8px;
+
+  }
 
   .main {
-    padding: 86.5% 7px 20px 1px;
+    padding: 86.5% 0px 20px 0px;
     text-align: center;
     background: top center no-repeat url(img/Mobil.svg);
     margin-left: 43px;
   }
 
   .main__title {
-    margin: 0 0 32px 14px;
+    margin: 2px 0 35px 7px;
     font: bold 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
