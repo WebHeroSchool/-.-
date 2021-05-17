@@ -191,7 +191,7 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 0 41px 0;
+    margin: 0 0 56px 1px;
     font: 18px/21px "robotoregular", arial, helvetica, sans-serif;
   }
 
@@ -409,9 +409,9 @@ body {
     left: 7px;
     top: 55%;
   }
-  .menu__btn {
-  top: 32px;
 
+  .menu__btn {
+    top: 32px;
   }
 
   .main {
