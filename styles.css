@@ -107,7 +107,6 @@ body {
 }
 
 .main__button {
-  display: inline-block;
   font: 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
@@ -115,7 +114,6 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
-  opacity: 0.5;
 }
 
 .main__button:hover {
@@ -228,8 +226,8 @@ body {
   }
 
   .menu {
-      margin: 0px 12px 0 0;
-      padding-top: 17px;
+    margin: 0px 12px 0 0;
+    padding-top: 17px;
   }
 
   .menu__item {
@@ -412,10 +410,10 @@ body {
   }
 
   .main {
-    padding: 86.5% 0 20px 0;
+    padding: 86.5% 7px 20px 1px;
     text-align: center;
-    background: top center no-repeat url(img/mainImg.svg);
-    margin-left: 36px;
+    background: top center no-repeat url(img/imgMobil.svg);
+    margin-left: 43px;
   }
 
   .main__title {
@@ -424,17 +422,17 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 0 27px 2px;
+    margin: 0 0 42px 1px;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
-    width: 86%;
+    width: 85%;
   }
 
   .main__button {
     font: bold 14px/15px "robotomedium", arial, helvetica, sans-serif;
     width: 170px;
     height: 26px;
-    margin-left: 8px;
-    padding: 14px 24px 2px 13px;
+    margin-left: 10px;
+    padding: 13px 24px 11px 13px;
     word-spacing: 1px;
   }
 }
