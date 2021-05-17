@@ -91,7 +91,7 @@ body {
 }
 
 .main {
-  padding: 71px 66% 132px 2px;
+  padding: 71px 66% 167px 2px;
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
 }
 
@@ -377,9 +377,10 @@ body {
 
 @media (max-width: 375px) {
   .wrapper {
-    width: 80%;
-    margin-left: 4%;
-    margin-right: 13%;
+    width: 92%;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
   }
 
   .header {
@@ -409,26 +410,27 @@ body {
     top: 55%;
   }
   .menu__btn {
-  top: 8px;
+  top: 32px;
 
   }
 
   .main {
-    padding: 86.5% 0px 20px 0px;
+    padding: 75% 0 20 0;
     text-align: center;
     background: top center no-repeat url(img/Mobil.svg);
-    margin-left: 43px;
+    margin-left: 0;
   }
 
   .main__title {
-    margin: 2px 0 35px 7px;
+    margin: 2px 0 33px 7px;
     font: bold 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin: 0 0 24px 1px;
+    margin: 0 0 35px 0px;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
-    width: 85%;
+    width: 70%;
+    padding: 0 0 54px 0;
   }
 
   .main__button {
