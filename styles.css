@@ -142,41 +142,23 @@ body {
     font: bold 24px/31px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
+  .logo__circle {
+    left: 1px;
+    top: 50%;
+  }
+
   .menu {
-    margin: 0 12px 0 0;
+    padding-top: 32px;
+    margin: 0 7px 0 0;
   }
 
   .menu__item {
-    margin-right: 27px;
+    margin-right: 28px;
     font: 500 14px/16px "robotomedium", arial, helvetica, sans-serif;
-    color: #000;
-    padding-top: 5px;
-  }
-
-  .menu__item::after {
-    position: absolute;
-    display: block;
-    content: "";
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: #0056ec;
-    opacity: 0;
-    transition: opacity 0.5s, width 0.5s;
   }
 
   .menu__item:last-child {
-    margin-right: 3px;
-  }
-
-  .menu__item:hover {
-    opacity: 0.5;
-  }
-
-  .menu__item:hover::after,
-  .menu__item_active::after {
-    opacity: 1;
-    width: 100%;
+    margin-right: 10px;
   }
 
   .main {
@@ -188,6 +170,7 @@ body {
   .main__title {
     font: bold 50px/66px "pt_serifbold", arial, helvetica, sans-serif;
     margin: 0 0 40px 0;
+    padding: 1px;
   }
 
   .main__subtitle {
@@ -222,16 +205,16 @@ body {
   }
 
   .header {
-    margin-bottom: 81px;
+    margin-bottom: 80px;
   }
 
   .menu {
-    margin: 0 12px 0 0;
+    margin: 0 14px 0 0;
     padding-top: 17px;
   }
 
   .menu__item {
-    margin-right: 25px;
+    margin-right: 27px;
     font: bold 14px/16px "robotomedium", arial, helvetica, sans-serif;
     padding-top: 14px;
   }
@@ -248,12 +231,12 @@ body {
   }
 
   .main__title {
-    margin-bottom: 38px;
+    margin: 5px 0 37px 0;
   }
 
   .main__subtitle {
     font: bold 18px/21px "robotoregular", arial, helvetica, sans-serif;
-    margin-bottom: 45px;
+    margin: 0 0 53px 0px
   }
 }
 
@@ -413,7 +396,7 @@ body {
   }
 
   .main {
-    padding: 75% 0 20 0;
+    padding: 75% 0 0 0;
     text-align: center;
     background: top center no-repeat url(img/Mobil.svg);
     margin-left: 0;
@@ -428,15 +411,15 @@ body {
     margin: 0 0 35px 0;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
     width: 70%;
-    padding: 0 0 54px 0;
+    padding: 0 0 0 54px;
   }
 
   .main__button {
     font: bold 14px/15px "robotomedium", arial, helvetica, sans-serif;
     width: 170px;
     height: 26px;
-    margin-left: 10px;
-    padding: 13px 24px 11px 13px;
+    margin-left: 2px;
+    padding: 10px ​24px 14px 13px;
     word-spacing: 1px;
   }
 }
