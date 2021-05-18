@@ -10,14 +10,14 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 47px;
   font: bold 24px/32px "pt_serifbold", arial, helvetica, sans-serif;
 }
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: 4px;
+  top: 47%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -49,7 +49,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 28px;
+  margin-right: 27.5px;
   font: 500 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -69,7 +69,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 5px;
+  margin-right: 7px;
 }
 
 .menu__item:hover {
@@ -226,7 +226,7 @@ body {
   }
 
   .menu {
-    margin: 0px 12px 0 0;
+    margin: 0 12px 0 0;
     padding-top: 17px;
   }
 
@@ -378,8 +378,6 @@ body {
 @media (max-width: 375px) {
   .wrapper {
     width: 92%;
-    margin-left: 0;
-    margin-right: 0;
     margin: auto;
   }
 
@@ -427,7 +425,7 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 0 35px 0px;
+    margin: 0 0 35px 0;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
     width: 70%;
     padding: 0 0 54px 0;
