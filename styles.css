@@ -136,15 +136,20 @@ body {
     margin-bottom: 83px;
   }
 
-  .logo {
-    padding: 39px 0;
-    padding-left: 44px;
-    font: bold 24px/31px "pt_serifbold", arial, helvetica, sans-serif;
+  .logo__circle {
+    position: absolute;
+    left: 1px;
+    top: 47%;
   }
 
-  .logo__circle {
-    left: 1px;
-    top: 50%;
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
+  }
+
+  .logo__circle_color_dark-blue {
+    background: #0056ec;
   }
 
   .menu {
@@ -209,6 +214,22 @@ body {
     margin-bottom: 80px;
   }
 
+  .logo__circle {
+    position: absolute;
+    left: 1px;
+    top: 47%;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
+  }
+
+  .logo__circle_color_dark-blue {
+    background: #0056ec;
+  }
+
   .menu {
     margin: 0 4px 0 0;
     padding-top: 17px;
@@ -225,12 +246,12 @@ body {
   }
 
   .main {
-    background: top 6px right 7px no-repeat url(img/mainImg.svg);
+    background: top 2px right 7px no-repeat url(img/mainImg.svg);
     background-size: 55%;
   }
 
   .main__title {
-    margin: 5px 0 37px 0;
+    margin: 2px 0 37px 0;
   }
 
   .main__subtitle {
@@ -244,12 +265,12 @@ body {
     display: none;
   }
 
-  .logo__text {
-    display: none;
-  }
-
   .header {
     margin-bottom: 28px;
+  }
+
+  .logo__text {
+    display: none;
   }
 
   .main {
