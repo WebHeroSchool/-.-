@@ -149,7 +149,7 @@ body {
 
   .menu {
     padding-top: 32px;
-    margin: 0 7px 0 0;
+    margin: 0;
   }
 
   .menu__item {
@@ -158,7 +158,7 @@ body {
   }
 
   .menu__item:last-child {
-    margin-right: 10px;
+    margin-right: 14px;
   }
 
   .main {
@@ -169,24 +169,25 @@ body {
 
   .main__title {
     font: bold 50px/66px "pt_serifbold", arial, helvetica, sans-serif;
-    margin: 0 0 40px 0;
+    margin: 0 0 38px 0;
     padding: 1px;
   }
 
   .main__subtitle {
-    margin: 0 0 56px 1px;
+    margin: 0 0 55px 1px;
     font: 18px/21px "robotoregular", arial, helvetica, sans-serif;
   }
 
   .main__title-text_highlight {
     background: #ecf3ff;
+    margin: 0;
   }
 
   .main__button {
     font: 14px/16px "robotomedium", arial, helvetica, sans-serif;
     color: #fff;
     background: #0056ec;
-    padding: 14px 20px;
+    padding: 13px 25px 14px 17px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
@@ -224,10 +225,8 @@ body {
   }
 
   .main {
-    padding-right: 55%;
-    padding-bottom: 5px;
-    background: top right no-repeat url(img/mainImg.svg);
-    background-size: 56%;
+    background: top 6px right 7px no-repeat url(img/mainImg.svg);
+    background-size: 55%;
   }
 
   .main__title {
@@ -236,7 +235,7 @@ body {
 
   .main__subtitle {
     font: bold 18px/21px "robotoregular", arial, helvetica, sans-serif;
-    margin: 0 0 53px 0px
+    margin: 0 0 53px 0px;
   }
 }
 
@@ -408,7 +407,7 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 0 35px 0;
+    margin: 0 0 31px 0;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
     width: 70%;
     padding: 0 0 0 54px;
@@ -420,6 +419,7 @@ body {
     height: 26px;
     margin-left: 2px;
     padding: 10px ​24px 14px 13px;
+    margin: 0 3px 0 0;
     word-spacing: 1px;
   }
 }
