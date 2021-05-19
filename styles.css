@@ -235,7 +235,7 @@ body {
 
   .main__subtitle {
     font: bold 18px/21px "robotoregular", arial, helvetica, sans-serif;
-    margin: 0 0 53px 0px;
+    margin: 0 0 53px 0;
   }
 }
 
@@ -417,7 +417,6 @@ body {
     font: bold 14px/15px "robotomedium", arial, helvetica, sans-serif;
     width: 170px;
     height: 26px;
-    margin-left: 2px;
     padding: 10px ​24px 14px 13px;
     margin: 0 3px 0 0;
     word-spacing: 1px;
