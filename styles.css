@@ -339,19 +339,26 @@ body {
   }
 
   .menu__item {
-    padding: 0;
+    margin: auto;
     position: relative;
     width: 281px;
-    margin-bottom: 22px;
-    margin-left: 46px;
     height: 38px;
     font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
     text-align: center;
+    opacity: 0;
 
     /* width: max-content; */
   justify-content: center;
     display: block;
     text-decoration: none;
+  }
+
+  .menu__item:hover {
+    display: none;
+  }
+
+  .menu__item:last-child {
+    margin: auto;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
