@@ -347,7 +347,7 @@ body {
     font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
     text-align: center;
 
-  /* width: max-content; */
+    /* width: max-content; */
     justify-content: center;
     display: block;
     text-decoration: none;
@@ -428,7 +428,7 @@ body {
     font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
     text-align: center;
   }
-  
+
   .menu__btn {
     top: 32px;
   }
