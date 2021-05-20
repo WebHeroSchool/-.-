@@ -345,7 +345,6 @@ body {
     height: 38px;
     font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
     text-align: center;
-    opacity: 0;
 
     /* width: max-content; */
   justify-content: center;
@@ -353,7 +352,7 @@ body {
     text-decoration: none;
   }
 
-  .menu__item:hover {
+  .menu__item::after {
     display: none;
   }
 
@@ -420,20 +419,15 @@ body {
   }
 
   .menu__item {
-    padding: 0;
+    margin: auto;
+    padding: 0 0 23px 0;
     position: relative;
     width: 281px;
-    margin-bottom: 22px;
-    margin-left: 46px;
     height: 38px;
+    font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
     text-align: center;
-
-    /* width: max-content; */
-  justify-content: center;
-    display: block;
-    text-decoration: none;
   }
-
+  
   .menu__btn {
     top: 32px;
   }
