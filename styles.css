@@ -174,7 +174,7 @@ body {
 
   .main__title {
     font: bold 50px/66px "pt_serifbold", arial, helvetica, sans-serif;
-    margin: 0 0 38px 0;
+    margin: -2px 0 39px 0;
     padding: 1px;
   }
 
@@ -192,7 +192,7 @@ body {
     font: 14px/16px "robotomedium", arial, helvetica, sans-serif;
     color: #fff;
     background: #0056ec;
-    padding: 13px 25px 14px 17px;
+    padding: 16px 25px 12px 17px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
@@ -358,7 +358,7 @@ body {
   }
 
   .menu__item:last-child {
-    margin: auto;
+    margin: 0 0 0 48px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -378,7 +378,7 @@ body {
 
   #menu__toggle:checked ~ .menu {
     visibility: visible;
-    right: 0;
+    right: 3px;
   }
 }
 
@@ -420,7 +420,7 @@ body {
   }
 
   .menu__item {
-    margin: auto;
+    margin: 0 0 0 49px;
     padding: 0 0 23px 0;
     position: relative;
     width: 281px;
@@ -434,19 +434,19 @@ body {
   }
 
   .main {
-    padding: 75% 0 0 0;
+    padding: 70% 0 0 0;
     text-align: center;
     background: top center no-repeat url(img/Mobil.svg);
     margin-left: 0;
   }
 
   .main__title {
-    margin: 2px 0 33px 7px;
+    margin: 16px 0 33px 7px;
     font: bold 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin: 0 0 31px 0;
+    margin: 0 0 41px 0;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
     width: 70%;
     padding: 0 0 0 54px;
@@ -457,7 +457,5 @@ body {
     width: 170px;
     height: 26px;
     padding: 10px ​24px 14px 13px;
-    margin: 0 3px 0 0;
-    word-spacing: 1px;
   }
 }
