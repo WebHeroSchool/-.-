@@ -95,35 +95,28 @@ body {
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
 }
 
-@keyframes move{
+@keyframes maintitle {
   from {
-    background: top 2px right 7px no-repeat url(img/mainImg.svg);
+    width: 86%;
+    background: #ffc0cb;
   }
+  25% {
+    width: 86%;
+    background: #ffc0cb;
+    animation: flash:
+  }
+  0% {
+    width: 180%;
+    background: #ffc0cb;
+    animation: flash: .3s 4 ease-in-out;
+  }
+
 }
 
 .main__title {
   margin: 1px 0 38px 1px;
   font: bold 66px/87px "pt_serifbold", arial, helvetica, sans-serif;
-}
-
-@keyframes .main__subtitle {
-  from {
-    animation-name: increase
-    width: 86%
-}
-
-  25% {
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-}
-
-  50% {
-
-}
-
-  100% {
-
- }
+  animation: flash: .3s 4 ease-in-out;
 }
 
 .main__subtitle {
