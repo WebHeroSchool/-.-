@@ -257,6 +257,11 @@ body {
   .main__subtitle {
     font: bold 18px/21px "robotoregular", arial, helvetica, sans-serif;
     margin: 0 0 53px 0;
+    letter-spacing: 0.1px;
+  }
+
+  .main__button {
+    padding: 14px 26px 14px 17px;
   }
 }
 
@@ -331,16 +336,17 @@ body {
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 0;
+    top: 7px;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 186px 0 150px 0;
+    padding: 159px 3px 150px 0;
     background-color: #fff;
   }
 
   .menu__item {
-    margin: auto;
+    margin: 6px 0 10px 243px;
+    padding: 11px 0 0 0;
     position: relative;
     width: 281px;
     height: 38px;
@@ -358,7 +364,7 @@ body {
   }
 
   .menu__item:last-child {
-    margin: 0 0 0 48px;
+    margin: 0 0 0 241px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -416,17 +422,16 @@ body {
   }
 
   .menu {
-    padding-top: 185px;
+    padding-top: 180px;
   }
 
   .menu__item {
-    margin: 0 0 0 49px;
-    padding: 0 0 23px 0;
-    position: relative;
-    width: 281px;
-    height: 38px;
-    font: bold 30px/35px "robotomedium", arial, helvetica, sans-serif;
-    text-align: center;
+    margin: 0 0 21px 52px;
+    padding: 0;
+  }
+
+  .menu__item:last-child {
+    margin: 26px 0 0 51px;
   }
 
   .menu__btn {
