@@ -177,6 +177,7 @@ body {
     font: bold 50px/66px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -2px 0 39px 0;
     padding: 1px;
+    width: 94%;
   }
 
   .main__subtitle {
@@ -427,12 +428,12 @@ body {
   }
 
   .menu__item {
-    margin: 0 0 21px 52px;
+    margin: 0 0 22px 52px;
     padding: 0;
   }
 
   .menu__item:last-child {
-    margin: 26px 0 0 51px;
+    margin: 20px 0 0 51px;
   }
 
   .menu__btn {
@@ -447,12 +448,12 @@ body {
   }
 
   .main__title {
-    margin: 16px 0 33px 7px;
+    margin: 16px 0 33px 12px;
     font: bold 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    margin: 0 0 41px 0;
+    margin: 0 0 40px 0;
     font: bold 16px/18px "robotoregular", arial, helvetica, sans-serif;
     width: 70%;
     padding: 0 0 0 54px;
