@@ -95,28 +95,10 @@ body {
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
 }
 
-@keyframes maintitle {
-  from {
-    width: 86%;
-    background: #ffc0cb;
-  }
-  25% {
-    width: 86%;
-    background: #ffc0cb;
-    animation: flash:
-  }
-  0% {
-    width: 180%;
-    background: #ffc0cb;
-    animation: flash: .3s 4 ease-in-out;
-  }
-
-}
-
 .main__title {
   margin: 1px 0 38px 1px;
   font: bold 66px/87px "pt_serifbold", arial, helvetica, sans-serif;
-  animation: flash: .3s 4 ease-in-out;
+  width: 150%;
 }
 
 .main__subtitle {
