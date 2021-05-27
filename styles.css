@@ -136,7 +136,7 @@ body {
 .main {
   padding: 71px 66% 167px 2px;
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
-  animation: kartina 5s, infinite; linear;
+  /*animation: kartina 5s, infinite; linear;*/
 }
 
 .main__title {
