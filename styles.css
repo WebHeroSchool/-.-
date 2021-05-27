@@ -119,12 +119,12 @@ body {
 
   25% {
     top: 7px;
-    right: 13px;
+    left: : 13px;
   }
 
   50% {
     top: 10px;
-    right: 20px;
+    left: : 20px;
   }
 
   100% {
@@ -136,7 +136,7 @@ body {
 .main {
   padding: 71px 66% 167px 2px;
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
-  animation: kartina 5s, infinite;
+  animation: kartina 5s, infinite; linear
 }
 
 .main__title {
@@ -170,7 +170,7 @@ body {
   background: #ecf3ff;
 }
 
-@media (max-width: 1433px) {
+@media (max-width: 1574px) {
   .main__title {
     width: 93%;
   }
@@ -444,7 +444,7 @@ body {
   }
 }
 
-@media (max-width: 669px) {
+@media (max-width: 684px) {
   .wrapper {
     margin: auto;
   }
@@ -455,6 +455,16 @@ body {
 
   .main__subtitle {
     margin: 0 0 44px 50px;
+  }
+}
+
+@media (max-width: 539px) {
+  .main__title {
+    margin: 0 0 10px 10px;
+  }
+
+  .main__subtitle {
+  margin: 0 0 44px 25px;
   }
 }
 
