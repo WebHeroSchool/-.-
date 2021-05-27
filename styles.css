@@ -25,10 +25,30 @@ body {
   opacity: 0.7;
 }
 
+@keyframes logoMy {
+  0% {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
+  }
+
+  50% {
+    left: 12px;
+    top: 86%;
+    background: #ffc0cb;
+  }
+  100% {
+    left: 16px;
+    top: 100%;
+    background: #c8dbfb;
+  }
+}
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
+  animation: logoMy 5s, ease-in, infinite, reverse, 1;
 }
 
 .logo__circle_color_dark-blue {
@@ -124,6 +144,11 @@ body {
 .main__title-text_highlight {
   margin: 3px;
   background: #ecf3ff;
+}
+@media (max-width: 1433px) {
+  .main__title {
+    width: 93%;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -272,20 +297,24 @@ body {
     margin-bottom: 28px;
   }
 
+  .wrapper {
+    margin: auto;
+  }
+
   .logo__text {
     display: none;
   }
 
   .main {
     margin: auto;
-    text-align: center;
+    text-align: center;margin: auto;
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
 
   .main__title {
-    margin: 0 70px 44px 70px;
+    margin: 0 0 44px 41px;
     font: bold 30px/39px "pt_serifbold", arial, helvetica, sans-serif;
   }
 
@@ -387,6 +416,20 @@ body {
   #menu__toggle:checked ~ .menu {
     visibility: visible;
     right: 3px;
+  }
+}
+
+@media (max-width:669px) {
+  .wrapper {
+    margin: auto;
+  }
+
+  .main__title {
+    margin: auto;
+  }
+
+  .main__subtitle {
+    margin: 0 0px 44px 50px;
   }
 }
 
