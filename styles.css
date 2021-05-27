@@ -37,6 +37,7 @@ body {
     top: 86%;
     background: #ffc0cb;
   }
+
   100% {
     left: 16px;
     top: 100%;
@@ -145,6 +146,7 @@ body {
   margin: 3px;
   background: #ecf3ff;
 }
+
 @media (max-width: 1433px) {
   .main__title {
     width: 93%;
@@ -307,7 +309,7 @@ body {
 
   .main {
     margin: auto;
-    text-align: center;margin: auto;
+    text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
@@ -419,7 +421,7 @@ body {
   }
 }
 
-@media (max-width:669px) {
+@media (max-width: 669px) {
   .wrapper {
     margin: auto;
   }
@@ -429,7 +431,7 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 0px 44px 50px;
+    margin: 0 0 44px 50px;
   }
 }
 
