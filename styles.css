@@ -111,9 +111,32 @@ body {
   opacity: 0;
 }
 
+@keyframes kartina {
+  0% {
+    top: 2px;
+    right: 7px;
+  }
+
+  25% {
+    top: 7px;
+    right: 13px;
+  }
+
+  50% {
+    top: 10px;
+    right: 20px;
+  }
+
+  100% {
+    top: 2px;
+    right: 7px;
+  }
+}
+
 .main {
   padding: 71px 66% 167px 2px;
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
+  animation: kartina 5s, infinite;
 }
 
 .main__title {
