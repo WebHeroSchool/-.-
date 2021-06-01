@@ -90,7 +90,7 @@ body {
   opacity: 0;
 }
 
-@keyframes  kartina {
+/*@keyframes  kartina {
   0% {
     background-position: top 2px right 7px;
   }
@@ -107,16 +107,19 @@ body {
   100% {
     background-position: top 2px right 7px;
   }
-}
+}*/
 
 .main {
   padding: 71px 66% 167px 2px;
   background: top 2px right 7px no-repeat url(img/mainImg.svg);
-  animation: kartina 5s infinite;
+  /*animation: kartina 5s infinite;*/
 }
 
 .main:hover {
-  animation-play-state: paused;
+  /*animation-play-state: paused;*/
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .main__title {
