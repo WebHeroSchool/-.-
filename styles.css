@@ -90,33 +90,15 @@ body {
   opacity: 0;
 }
 
-/*@keyframes  kartina {
-  0% {
-    background-position: top 2px right 7px;
-  }
-
-  25% {
-    background-position: top 6px right 13px;
-  }
-
-  50% {
-    background-position: top 10px right 19px;
-    border-radius: 50%
-  }
-
-  100% {
-    background-position: top 2px right 7px;
-  }
-}*/
-
 .main {
   padding: 71px 66% 167px 2px;
-  background: top 2px right 7px no-repeat url(img/mainImg.svg);
-  /*animation: kartina 5s infinite;*/
 }
 
-.main:hover {
-  /*animation-play-state: paused;*/
+.mainImg {
+  background: top 2px right 7px no-repeat url(img/mainImg.svg);
+}
+
+.mainImg:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
