@@ -95,7 +95,15 @@ body {
   background: top 2px right 7px no-repeat url(img/mainimg.svg);
 }
 
-.main:hover {
+.main_img {
+  width: 45%;
+  height: 40%;
+  background: url(img/mainimg.svg);
+  /*top 2px right 7px no-repeat*/
+
+}
+
+.main_img:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
