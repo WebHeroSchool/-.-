@@ -92,15 +92,10 @@ body {
 
 .main {
   padding: 71px 66% 167px 2px;
-}
-
-.mainimg {
   background: top 2px right 7px no-repeat url(img/mainimg.svg);
-  width: 100%;
-  height: 50%;
 }
 
-.mainImg:hover {
+.main:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
