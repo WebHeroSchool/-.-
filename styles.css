@@ -25,31 +25,10 @@ body {
   opacity: 0.7;
 }
 
-@keyframes logoMy {
-  0% {
-    left: 8px;
-    top: 56%;
-    background: #c8dbfb;
-  }
-
-  50% {
-    left: 12px;
-    top: 86%;
-    background: #ffc0cb;
-  }
-
-  100% {
-    left: 16px;
-    top: 100%;
-    background: #c8dbfb;
-  }
-}
-
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
-  animation: logoMy 5s, ease-in, infinite, reverse, 1;
 }
 
 .logo__circle_color_dark-blue {
@@ -111,31 +90,10 @@ body {
   opacity: 0;
 }
 
-@keyframes kartina {
-  0% {
-    top: 2px;
-    right: 7px;
-  }
-
-  25% {
-    top: 7px;
-    left: 13px;
-  }
-
-  50% {
-    top: 10px;
-    left: 20px;
-  }
-
-  100% {
-    top: 2px;
-    right: 7px;
-  }
-}
-
 .main {
   padding: 71px 66% 167px 2px;
-  background: top 2px right 7px no-repeat url(img/mainImg.svg);
+  background: top 2px right 7px no-repeat url(img/mainimg.svg);
+
 }
 
 .main__title {
@@ -150,6 +108,19 @@ body {
   width: 86%;
 }
 
+@keyframes knopa {
+  0% {
+    border-radius: 4px;
+  }
+
+  50% {
+    border-radius: 9px;
+  }
+
+  100% {
+    border-radius: 4px;
+  }
+}
 .main__button {
   font: 18px/21px "robotomedium", arial, helvetica, sans-serif;
   color: #fff;
@@ -158,6 +129,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
+  animation: knopa 2s ease-in infinite;
 }
 
 .main__button:hover {
@@ -218,7 +190,7 @@ body {
 
   .main {
     padding: 17px 53% 206px 0;
-    background: top 1px right 11px no-repeat url(img/mainImg.svg);
+    background: top 1px right 11px no-repeat url(img/mainimg.svg);
     background-size: 55%;
   }
 
@@ -297,7 +269,7 @@ body {
   }
 
   .main {
-    background: top 2px right 7px no-repeat url(img/mainImg.svg);
+    background: top 2px right 7px no-repeat url(img/mainimg.svg);
     background-size: 55%;
   }
 
